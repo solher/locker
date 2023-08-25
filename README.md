@@ -1,0 +1,2 @@
+# lock
+Simple entity locker
