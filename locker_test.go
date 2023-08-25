@@ -17,7 +17,7 @@ func newKey(values ...interface{}) string {
 }
 
 func TestNewEntityLocker(t *testing.T) {
-	el := New()
+	el := NewEntityLocker()
 	k1 := newKey("abc", 456)
 	k2 := newKey("abcd", 456)
 

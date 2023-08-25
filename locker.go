@@ -17,7 +17,7 @@ type EntityLocker struct {
 }
 
 // New creates a new EntityLocker.
-func New() *EntityLocker {
+func NewEntityLocker() *EntityLocker {
 	return &EntityLocker{
 		locks:   make(map[string]*entityLock),
 		mapLock: new(sync.Mutex),
